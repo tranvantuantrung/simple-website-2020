@@ -8,7 +8,8 @@ html, body {
 }
 
 body {
-    font-size: 18px !important;
+    font-size: 18px;
+    color: #212529;
 }
 
 /* nav-bar */
@@ -100,4 +101,41 @@ button:focus {
     color: #303669;
     font-weight: 800;
     line-height: 1;
+}
+
+/* section strategy */
+.strategy-section-container {
+    position: relative;
+}
+
+.strategy-section .bg-graphics-section {
+    position: absolute;
+    width: 23%;
+    top: -42%;
+    right: -3%;
+}
+
+.strategy-section .bg-graphics-section img {
+    width: 100%;
+}
+
+.strategy-section .stragegy-card-section .strategy-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stragegy-card-section .strategy-card .title-strategy {
+    color: #303669;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.stragegy-card-section .strategy-card .sub-title-strategy {
+    font-size: 1rem;
+    color: #000;
+    line-height: 1.5;
+    max-width: 19rem;
+    text-align: center;
 }
