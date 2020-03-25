@@ -29,6 +29,19 @@ button:focus {
 .navbar-nav .nav-item .nav-link {
     font-weight: 600;
     color: #505050;
+    line-height: 1;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-item .nav-link {
+        color: #000;
+    }
+}
+
+.navbar-nav .nav-item .nav-link .nav-link-number {
+    font-weight: 200;
+    font-size: 0.75rem;
+    text-align: right;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
