@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
 
 html, body {
     font-family: 'Montserrat', sans-serif;
@@ -51,3 +51,40 @@ button:focus {
     background-color: #FF3E81;
 }
 
+/* section header */
+.wrapper .header {
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+
+.header .header-img-section img {
+    width: 100%;
+}
+
+.btn-invert {
+    background-color: #FF3E81;   
+}
+
+.btn-invert:hover {
+    background-color: #3A88EC;
+}
+
+.header .header-title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-title-section  .header-subtitle {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #212529;
+}
+
+.header .header-title-section  .header-title {
+    font-size: 3.8rem;
+    color: #303669;
+    font-weight: 800;
+    line-height: 1;
+}
