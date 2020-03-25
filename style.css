@@ -139,3 +139,38 @@ button:focus {
     max-width: 19rem;
     text-align: center;
 }
+
+/* section services */
+.light-btn {
+    transition: all 0.3s;
+}
+
+.light-btn::after {
+    content: '\2212';
+    float: right;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 8px;
+}
+
+.light-btn:hover {
+    background-color: #78C2ff;
+}
+
+.light-btn.collapsed::after{
+    content: "\002B";
+}
+
+.content-data-light-btn {
+    color: #A5A5A5;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.services-section-bg {
+    position: absolute;
+    width: 25%;
+    left: -17%;
+    top: -35%;
+}
