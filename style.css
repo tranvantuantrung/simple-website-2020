@@ -366,3 +366,59 @@ button:focus {
     display: block;
     margin: 0 auto;
 }
+/* section news */
+.news-subtitle {
+    font-size: 22px !important;
+    font-weight: 500;
+    line-height: 2 !important;
+}
+
+.news-pic {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.news-title h3 {
+    font-size: 20px;
+    color: #303669;
+    line-height: 2;
+    font-weight: 700;
+    text-align: center;
+}
+
+.news-title p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+.news-btn {
+    color: #a4c4f3;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.news-btn:hover {
+    color: #ff3e81;
+}
+
+.news-title h4 {
+    font-size: 18px;
+    color: #CCC;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.news-section-bg {
+    position: absolute;
+    top: 5%;
+    right:-1%;
+}
