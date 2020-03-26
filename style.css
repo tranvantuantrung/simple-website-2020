@@ -188,3 +188,128 @@ button:focus {
     left: -17%;
     top: -35%;
 }
+
+/* section pricing */
+
+.section-pricing {
+    padding: 3.5rem 0;
+}
+
+.pricing-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pricing-title h2 {
+    font-weight: 800;
+    color: #303669;
+    line-height: 1;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.pricing-title p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 450px;
+}
+
+@media (min-width: 992px) {
+    .pricing-title p {
+        min-width: 700px;
+    }
+}
+
+.pricing-card {
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 40px;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.pricing-card:hover {
+    box-shadow: 0 3px 47px rgba(0, 0, 0, 0.15);;
+}
+
+.pricing-card .pricing-rate {
+    color: #303669;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1  ;
+}
+
+.pricing-card .pricing-period {
+    color: #78C2FF;
+    font-weight: 600;
+    margin: 0;
+}
+
+.pricing-card .pricing-text {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+
+.pricing-plan-card-section {
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-card .mid-rate::before {
+    content: 'POPULAR';
+    font-size: 12px;
+    color: #FFF;
+    background-color: #78C2FF;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 10px 15px;
+    display: block;
+    width: 95px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.pring-card-section .mid-card {
+    border: 7px dashed #78C2FF;;
+}
+
+.pricing-plan {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.pricing-plan ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.pricing-plan ul li {
+    display: flex;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2;
+    align-items: center;
+}
+
+.pricing-plan ul li .fa-check-circle {
+    font-size: 20px;
+    color: #3A88EC;
+    margin-right: 8px;
+}
+
+.pricing-plan ul li .fa-circle {
+    font-size: 20px;
+    color: #EEEEEE;
+    margin-right: 8px;
+}
