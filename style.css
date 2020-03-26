@@ -428,3 +428,24 @@ button:focus {
     bottom: 10%;
     left: 2%;
 }
+
+/* section-contact */
+
+.contact-title {
+    font-size: 40px !important;
+    max-width: 320px;
+}
+
+.contact-title-text {
+    max-width: 320px;
+}
+
+@media (min-width: 992px) {
+    .contact-title-text {
+        max-width: 100%;
+    }
+}
+
+.section-contact {
+    padding: 0 0 80px 0 !important;
+}
