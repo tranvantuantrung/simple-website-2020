@@ -193,6 +193,21 @@ button:focus {
 
 .section-pricing {
     padding: 3.5rem 0;
+    position: relative;
+}
+
+.pricing-top-bg {
+    position: absolute;
+    top: -14%;
+    right: -9%;
+    z-index: -1;
+}
+
+.pricing-bot-bg {
+    position: absolute;
+    bottom: -10%;
+    left: -5%;
+    z-index: -1;
 }
 
 .pricing-title {
