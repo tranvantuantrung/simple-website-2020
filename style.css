@@ -22,6 +22,16 @@ body {
     box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
 }
 
+@media (min-width: 992px) {
+    .navbar {
+        box-shadow: none;
+    }
+
+    .navbar-header-scrolled {
+        box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);   
+    }    
+}
+
 button:focus {
     outline: none !important;
 }
