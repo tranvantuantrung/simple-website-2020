@@ -422,3 +422,9 @@ button:focus {
     top: 5%;
     right:-1%;
 }
+
+.blog-section-left-bg {
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+}
